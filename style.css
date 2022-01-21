@@ -1,0 +1,33 @@
+html{
+    background: black url(spate.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+body {
+    display: grid;
+    place-items: center ;
+    margin: 0;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16;
+    line-height: 1,5em;
+}
+
+.Container {
+    width: 90%;
+    margin: 2vh auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
+    line-height: 1.5em;
+}
+header { }
+        .TitlulPaginii  {display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1em; }
+
+
+main{ }
+        .ListaLinkuri{ display: block; margin: 0; padding: 0; border-top: 1px solid #fff;}
+            .Listaitem{ display: block; margin: 0; padding: 0; border-bottom: 1px solid rgb(224, 224, 224);}
+                .ListaLink{display: block; padding: 0.5em; color: rgb(253, 253, 253); text-decoration: none; }  
+                .LitaTitlu{display: block; margin: 0; padding:0; font-size: 1em; line-height: 1.5em; }
+                        .ListaText{white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
